@@ -11,7 +11,7 @@ hero:
       link: /installation
     - theme: alt
       text: View on GitHub
-      link: https://github.com/morluto/rea
+      link: https://github.com/bryankwandou/rea
 
 features:
   - title: Investigate with your agent

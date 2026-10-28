@@ -88,7 +88,7 @@ address-discontiguous record runs before merging them into regions. A run is a
 sequence of consecutive records whose addresses continue each other. Both are
 fixed resource bounds, not format limits, and fail as limits (`file-size` and
 `capacity`) with no runtime override. Configurable ceilings are tracked in
-[#6176](https://github.com/morluto/rea/issues/6176). The line-length limits are
+[#6176](https://github.com/bryankwandou/rea/issues/6176). The line-length limits are
 the one-byte record count: Intel HEX allows 255 data bytes, while S-record
 counts include address and checksum bytes.
 
@@ -107,9 +107,9 @@ architecture you choose, and `entry_point` set to the region start address;
 raw-binary maps file offset 0 at `entry_point`. Each region is opened
 separately, so references between regions are not resolved. A caller-selected
 Ghidra language and base address for raw-binary imports is tracked in
-[#4246](https://github.com/morluto/rea/issues/4246); Thumb-only Cortex-M images
+[#4246](https://github.com/bryankwandou/rea/issues/4246); Thumb-only Cortex-M images
 may be refused or decoded in ARM state until
-[#5744](https://github.com/morluto/rea/issues/5744) is resolved.
+[#5744](https://github.com/bryankwandou/rea/issues/5744) is resolved.
 
 ## Verification
 

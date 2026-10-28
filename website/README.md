@@ -242,7 +242,7 @@ It is ignored by Git and regenerated before checks and publication.
 applications crawlable so search engines can read their `noindex` directives.
 Cloudflare may prepend managed rules or comments to the served file; inspect the
 live response after publication. The mirrored `/rea/robots.txt` is not the
-hostname-root robots file for `morluto.github.io`; canonical HTML tags establish
+hostname-root robots file for `bryankwandou.github.io`; canonical HTML tags establish
 the mirror's preference.
 
 `public/assets/social-card.svg` is the maintained 1200 × 630 preview source.
@@ -610,14 +610,14 @@ Cloudflare's Wrangler action.
 The equivalent CLI command publishes both hosts:
 
 ```sh
-gh workflow run website-pages.yml --repo morluto/rea --ref main
+gh workflow run website-pages.yml --repo bryankwandou/rea --ref main
 ```
 
 While Cloudflare credentials are being configured, an explicitly requested
 Pages-only publication uses the same workflow with `target=pages`:
 
 ```sh
-gh workflow run website-pages.yml --repo morluto/rea --ref main -f target=pages
+gh workflow run website-pages.yml --repo bryankwandou/rea --ref main -f target=pages
 ```
 
 This mode verifies the Pages commit marker. The default remains `both` for

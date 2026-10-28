@@ -1,6 +1,6 @@
 # Serve the calls agents make and the values applications count
 
-Issue: https://github.com/morluto/rea/issues/4933
+Issue: https://github.com/bryankwandou/rea/issues/4933
 
 ## Outcome
 

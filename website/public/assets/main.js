@@ -142,7 +142,7 @@ async function initializeWebsite() {
     if (count === null || count === undefined) return;
 
     try {
-      const response = await fetch("https://api.github.com/repos/morluto/rea", {
+      const response = await fetch("https://api.github.com/repos/bryankwandou/rea", {
         headers: { Accept: "application/vnd.github+json" },
         credentials: "omit",
         signal: AbortSignal.timeout(5000),

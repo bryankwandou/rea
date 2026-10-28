@@ -22,7 +22,7 @@ Seven dependency-boundary variants match parsed values and complete error issues
 
 ## Tasks, artifacts and bounds
 
-Reuse the shared SDK task driver and independent ELF/section/zlib/JSON oracles from [the archived catalog study](https://github.com/morluto/rea/blob/a2e2c29b59e8775b0e6aedb09a9eb16adf32646b/experiments/analysis-efficiency/mcp-input-catalog.md): official Alpine v3.21 x86_64 ripgrep 14.1.1-r0 and Zellij 0.40.0-r0. All 42/422 packages and 88/1,063 edges match the independent oracles. Select serde name/version/kind, repeat exact retained-parent reads twice, verify a canonical negative-offset refusal, export/check complete Evidence and confirm the unchanged directory. `kind: null` stays unknown. Targets are not executed; dependency presence does not establish runtime use. Acquisition URLs, archive/executable/oracle hashes and complete answers are in [the receipts](https://github.com/morluto/rea/blob/main/docs/verification/analysis-efficiency/mcp-integer-allocation.json). Previously acquired public bytes are rehashed, not redownloaded.
+Reuse the shared SDK task driver and independent ELF/section/zlib/JSON oracles from [the archived catalog study](https://github.com/bryankwandou/rea/blob/a2e2c29b59e8775b0e6aedb09a9eb16adf32646b/experiments/analysis-efficiency/mcp-input-catalog.md): official Alpine v3.21 x86_64 ripgrep 14.1.1-r0 and Zellij 0.40.0-r0. All 42/422 packages and 88/1,063 edges match the independent oracles. Select serde name/version/kind, repeat exact retained-parent reads twice, verify a canonical negative-offset refusal, export/check complete Evidence and confirm the unchanged directory. `kind: null` stays unknown. Targets are not executed; dependency presence does not establish runtime use. Acquisition URLs, archive/executable/oracle hashes and complete answers are in [the receipts](https://github.com/bryankwandou/rea/blob/main/docs/verification/analysis-efficiency/mcp-integer-allocation.json). Previously acquired public bytes are rehashed, not redownloaded.
 
 Normal cohort: three alternating baseline/candidate pairs for each task × cold/warm server compile cache × default compact/full inputs: 72 trials, plus four excluded full-task warm priming runs. Separate diagnostic cohort: three alternating pairs per profile, cold Zellij tasks, 12 trials. All pass, with identical complete parent IDs/hashes and answers.
 
@@ -116,7 +116,7 @@ Question, explicit recipe, server instructions, one complete name/description/in
 - All 84 measured tasks and four warm priming tasks pass independent oracles, canonical refusal, parent/directory identity and owned cleanup checks. This does not verify external Hopper/Ghidra/IDA, Android devices, all providers or foreign OS behavior. The earlier macOS numbers in #4360 describe a different revision/platform and are not combined with these results.
 
 The historical cohort commands below use the retired experiment layout. Run them
-from the matching recorded producer checkout; the [archived source tree](https://github.com/morluto/rea/tree/a2e2c29b59e8775b0e6aedb09a9eb16adf32646b/experiments/analysis-efficiency)
+from the matching recorded producer checkout; the [archived source tree](https://github.com/bryankwandou/rea/tree/a2e2c29b59e8775b0e6aedb09a9eb16adf32646b/experiments/analysis-efficiency)
 provides the former files for reference. Current checkouts retain the report and
 its conformance producer, rather than the full measurement suite. Moving these
 files does not requalify the historical measurements against current REA.

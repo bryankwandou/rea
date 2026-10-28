@@ -1,6 +1,6 @@
 # Static analysis in GitHub Actions
 
-The [minimal workflow](https://github.com/morluto/rea/blob/main/examples/github-actions/rea-analysis.yml) builds a small
+The [minimal workflow](https://github.com/bryankwandou/rea/blob/main/examples/github-actions/rea-analysis.yml) builds a small
 JavaScript application, analyzes its files without executing them, and uploads
 machine-readable results. It uses the existing CLI, not a separate GitHub Action
 or an MCP client. It does not promise support for every REA provider.

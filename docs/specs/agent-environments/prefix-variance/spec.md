@@ -1,6 +1,6 @@
 # Share templated positions across tools
 
-Issue: https://github.com/morluto/rea/issues/4933
+Issue: https://github.com/bryankwandou/rea/issues/4933
 
 ## Outcome
 

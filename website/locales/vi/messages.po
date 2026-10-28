@@ -2721,7 +2721,7 @@ msgstr ""
 "{ph0}Cập NHẬT REA {ph1}, khởi động lại agent của bạn và thử lại cùng một "
 "nhiệm vụ. Một bản phát hành gần đây có thể đã khắc phục được sự cố."
 
-#. {ph0}: <a href="https://github.com/morluto/rea/issues/new/choose" >
+#. {ph0}: <a href="https://github.com/bryankwandou/rea/issues/new/choose" >
 #. {ph1}: </a >
 #: website/public/faq/index.html:517
 #, python-brace-format
@@ -2760,9 +2760,9 @@ msgctxt "page:faq/index.html"
 msgid "How can I share an example or contribute?"
 msgstr "Làm thế nào tôi có thể chia sẻ một ví dụ hoặc đóng góp?"
 
-#. {ph0}: <a href="https://github.com/morluto/rea/issues/new/choose" >
+#. {ph0}: <a href="https://github.com/bryankwandou/rea/issues/new/choose" >
 #. {ph1}: </a >
-#. {ph2}: <a href="https://github.com/morluto/rea/pulls">
+#. {ph2}: <a href="https://github.com/bryankwandou/rea/pulls">
 #. {ph3}: </a >
 #: website/public/faq/index.html:543
 #, python-brace-format
@@ -3747,7 +3747,7 @@ msgstr ""
 "{ph0}Chọn một hướng dẫn điều tra{ph1}{ph2}Làm việc ví dụ cho một nhị phân, "
 "MỘT ỨNG dụng Electron và một trình duyệt.{ph3}"
 
-#. {ph0}: <a href="https://github.com/morluto/rea/issues">
+#. {ph0}: <a href="https://github.com/bryankwandou/rea/issues">
 #. {ph1}: </a >
 #. {ph2}: <span>
 #. {ph3}: </span>
@@ -7655,7 +7655,7 @@ msgstr ""
 #. squares-flag-checker/ctfcli.yaml" >
 #. {ph3}: </a >
 #. {ph4}: <a
-#. href="https://github.com/morluto/rea/blob/main/website/evidence/ctf-masked-
+#. href="https://github.com/bryankwandou/rea/blob/main/website/evidence/ctf-masked-
 #. squares.md" >
 #. {ph5}: </a >
 #: website/public/showcase/ctf/index.html:704
@@ -11764,7 +11764,7 @@ msgctxt "runtime"
 msgid "Switch to dark mode"
 msgstr "Chuyển sang giao diện tối"
 
-#. {ph0}: <a href="https://github.com/morluto/rea/blob/main/docs/web-network-
+#. {ph0}: <a href="https://github.com/bryankwandou/rea/blob/main/docs/web-network-
 #. captures.md" >
 #. {ph1}: </a >
 #: website/public/guides/browser/index.html:487
@@ -13130,7 +13130,7 @@ msgid "Back to top"
 msgstr "Về đầu trang"
 
 #. {ph0}: <a
-#. href="https://github.com/morluto/rea/blob/main/website/evidence/reverse-
+#. href="https://github.com/bryankwandou/rea/blob/main/website/evidence/reverse-
 #. engineering-models.md" >
 #. {ph1}: </a >
 #: website/public/blog/reverse-engineering-models/index.html:783
@@ -13424,7 +13424,7 @@ msgstr "Claude Desktop · trò chuyện qua ứng dụng máy tính"
 
 #. {ph0}: <a href="https://claude.ai/download">
 #. {ph1}: </a>
-#. {ph2}: <a href="https://github.com/morluto/rea/blob/main/docs/client-
+#. {ph2}: <a href="https://github.com/bryankwandou/rea/blob/main/docs/client-
 #. configuration.md#claude-desktop" >
 #. {ph3}: </a >
 #: website/public/get-started/index.html:597
@@ -13499,11 +13499,11 @@ msgstr ""
 "DeepSeek Harness ({ph4}) có trên nhánh main của kho mã nguồn; hãy dùng bản "
 "dựng từ mã nguồn hoặc bản phát hành có các tích hợp này."
 
-#. {ph0}: <a href="https://github.com/morluto/rea/blob/main/docs/client-
+#. {ph0}: <a href="https://github.com/bryankwandou/rea/blob/main/docs/client-
 #. configuration.md" >
 #. {ph1}: </a >
 #. {ph2}: <a
-#. href="https://github.com/morluto/rea/blob/main/docs/installation.md#released-
+#. href="https://github.com/bryankwandou/rea/blob/main/docs/installation.md#released-
 #. package-and-main" >
 #. {ph3}: </a >
 #: website/public/get-started/index.html:726
@@ -13532,7 +13532,7 @@ msgstr ""
 "Trong cuộc trò chuyện với Grok Bot, yêu cầu Bot thêm máy chủ MCP tùy chỉnh "
 "tên {ph0}, dùng lệnh này trên máy tính của Bot:"
 
-#. {ph0}: <a href="https://github.com/morluto/rea/blob/main/docs/client-
+#. {ph0}: <a href="https://github.com/bryankwandou/rea/blob/main/docs/client-
 #. configuration.md#other-client-settings" >
 #. {ph1}: </a >
 #: website/public/get-started/index.html:757
@@ -13818,7 +13818,7 @@ msgstr ""
 "System Settings → Privacy & Security → Automation, rồi thử lại."
 
 #. {ph0}: <a
-#. href="https://github.com/morluto/rea/blob/main/docs/installation.md#hopper"
+#. href="https://github.com/bryankwandou/rea/blob/main/docs/installation.md#hopper"
 #. >
 #. {ph1}: </a >
 #: website/public/get-started/index.html:1065
@@ -13900,10 +13900,10 @@ msgstr ""
 "động lại trợ lý AI."
 
 #. {ph0}: <a
-#. href="https://github.com/morluto/rea/blob/main/docs/installation.md#ghidra"
+#. href="https://github.com/bryankwandou/rea/blob/main/docs/installation.md#ghidra"
 #. >
 #. {ph1}: </a >
-#. {ph2}: <a href="https://github.com/morluto/rea/blob/main/docs/windows-
+#. {ph2}: <a href="https://github.com/bryankwandou/rea/blob/main/docs/windows-
 #. ghidra-p0.md" >
 #. {ph3}: </a >
 #: website/public/get-started/index.html:1224
@@ -13953,7 +13953,7 @@ msgstr ""
 "Dùng tệp đăng ký JSON đã chuẩn bị theo hướng dẫn công cụ phân tích, rồi chạy"
 " lại trình thiết lập và khởi động lại trợ lý AI."
 
-#. {ph0}: <a href="https://github.com/morluto/rea/blob/main/docs/ida-
+#. {ph0}: <a href="https://github.com/bryankwandou/rea/blob/main/docs/ida-
 #. provider.md" >
 #. {ph1}: </a >
 #: website/public/get-started/index.html:1342
@@ -14101,13 +14101,13 @@ msgctxt "page:get-started/index.html"
 msgid "Process behavior"
 msgstr "Hành vi tiến trình"
 
-#. {ph0}: <a href="https://github.com/morluto/rea/blob/main/docs/flutter-
+#. {ph0}: <a href="https://github.com/bryankwandou/rea/blob/main/docs/flutter-
 #. analysis.md" >
 #. {ph1}: </a >
-#. {ph2}: <a href="https://github.com/morluto/rea/blob/main/docs/javascript-
+#. {ph2}: <a href="https://github.com/bryankwandou/rea/blob/main/docs/javascript-
 #. artifact-reconstruction.md" >
 #. {ph3}: </a >
-#. {ph4}: <a href="https://github.com/morluto/rea/blob/main/docs/evm-
+#. {ph4}: <a href="https://github.com/bryankwandou/rea/blob/main/docs/evm-
 #. bytecode.md" >
 #. {ph5}: </a >
 #. {ph6}: <a href="../guides/">
@@ -14211,7 +14211,7 @@ msgstr ""
 "dụng và skill của REA."
 
 #. {ph0}: <a
-#. href="https://github.com/morluto/rea/blob/main/docs/installation.md#diagnose-
+#. href="https://github.com/bryankwandou/rea/blob/main/docs/installation.md#diagnose-
 #. update-and-remove" >
 #. {ph1}: </a >
 #: website/public/get-started/index.html:1778
@@ -14440,7 +14440,7 @@ msgstr ""
 " hướng dẫn phù hợp với máy tính của bạn:"
 
 #. {ph0}: <a
-#. href="https://github.com/morluto/rea/blob/main/docs/installation.md#missing-
+#. href="https://github.com/bryankwandou/rea/blob/main/docs/installation.md#missing-
 #. macos-native-decompiler" >
 #. {ph1}: </a >
 #: website/public/get-started/index.html:1182
@@ -14450,7 +14450,7 @@ msgid "{ph0}macOS · Intel{ph1}"
 msgstr "{ph0}macOS · Intel{ph1}"
 
 #. {ph0}: <a
-#. href="https://github.com/morluto/rea/blob/main/docs/installation.md#macos-
+#. href="https://github.com/bryankwandou/rea/blob/main/docs/installation.md#macos-
 #. arm64-native-decompiler" >
 #. {ph1}: </a >
 #: website/public/get-started/index.html:1188
@@ -14876,7 +14876,7 @@ msgstr ""
 "chạy {ph0}."
 
 #. {ph0}: <a
-#. href="https://github.com/morluto/rea/blob/main/CONTRIBUTING.md#development-
+#. href="https://github.com/bryankwandou/rea/blob/main/CONTRIBUTING.md#development-
 #. setup" >
 #. {ph1}: </a >
 #. {ph2}: <code>6.4.0</code>
@@ -15005,7 +15005,7 @@ msgctxt "page:contributors/index.html"
 msgid "Find a contributor"
 msgstr "Tìm người đóng góp"
 
-#. {ph0}: <a href="https://github.com/morluto/rea/graphs/contributors">
+#. {ph0}: <a href="https://github.com/bryankwandou/rea/graphs/contributors">
 #. {ph1}: </a>
 #. {ph2}: <time datetime="2026-10-15" translate="no">2026-10-15</time>
 #: website/public/contributors/index.html:1114
@@ -15457,10 +15457,10 @@ msgid ""
 "name warnings identify places to review; they do not remove those values."
 msgstr ""
 
-#. {ph0}: <a href="https://github.com/morluto/rea/blob/main/docs/agent-
+#. {ph0}: <a href="https://github.com/bryankwandou/rea/blob/main/docs/agent-
 #. environments-quickstart.md" >
 #. {ph1}: </a >
-#. {ph2}: <a href="https://github.com/morluto/rea/blob/main/docs/agent-
+#. {ph2}: <a href="https://github.com/bryankwandou/rea/blob/main/docs/agent-
 #. environments.md" >
 #. {ph3}: </a >
 #: website/public/guides/rl-environments/index.html:474
@@ -15784,7 +15784,7 @@ msgstr ""
 "{ph0}Tham gia Discord{ph1} để nhận trợ giúp và thảo luận về quá trình phân "
 "tích của bạn."
 
-#. {ph0}: <a href="https://github.com/morluto/rea/issues/new/choose" >
+#. {ph0}: <a href="https://github.com/bryankwandou/rea/issues/new/choose" >
 #. {ph1}: </a >
 #: website/public/index.html:1285
 #, python-brace-format

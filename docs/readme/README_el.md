@@ -11,11 +11,9 @@
 [![Έκδοση npm](https://img.shields.io/npm/v/rea-agents?style=flat-square&color=cb3837)](https://www.npmjs.com/package/rea-agents)
 [![Κατάλογος εργαλείων MCP](https://img.shields.io/badge/MCP-tool_catalog-5c4ee5?style=flat-square)](../mcp-contracts.md#generated-catalog)
 [![Απαιτήσεις Node.js](https://img.shields.io/badge/Node.js-requirements-339933?style=flat-square&logo=nodedotjs&logoColor=white)](#τι-μπορείς-να-αναλύσεις)
-[![skills.sh](https://skills.sh/b/morluto/rea?style=flat-square)](https://skills.sh/morluto/rea/reverse-engineer-anything)
+[![skills.sh](https://skills.sh/b/bryankwandou/rea?style=flat-square)](https://skills.sh/bryankwandou/rea/reverse-engineer-anything)
 [![Άδεια MIT](https://img.shields.io/badge/license-MIT-f4c430?style=flat-square)](../../LICENSE)
 [![Discord](https://img.shields.io/discord/1556595354999332884?logo=discord&logoColor=white&label=Discord&color=5865F2)](https://discord.gg/GkcryMnJDM)
-
-<a href="https://trendshift.io/repositories/82054?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-82054" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/82054" alt="morluto%2Frea | Trendshift" width="250" height="55"/></a>
 
 **[Ιστότοπος](https://rea.tools/) · [Οδηγοί](https://rea.tools/guides/) · [Μελέτες περίπτωσης](https://rea.tools/showcase/)**
 
@@ -24,13 +22,6 @@
 <code>npx rea-agents setup</code>
 
 </div>
-
-> [!IMPORTANT]
-> Κατέβασε το REA από το [morluto/rea](https://github.com/morluto/rea),
-> το [rea.tools](https://rea.tools/) ή το [πακέτο rea-agents στο npm](https://www.npmjs.com/package/rea-agents).
-> Ακολούθησε τους συνδέσμους εγκατάστασης και εκδόσεων από αυτές τις επίσημες πηγές.
-> Ένα παρόμοιο όνομα αποθετηρίου ή ένα αντιγραμμένο README δεν αποδεικνύει ότι
-> ένα αρχείο προς λήψη προέρχεται από επίσημη πηγή.
 
 <div align="center">
 
@@ -234,7 +225,7 @@ npx rea-agents@latest setup
 [Οδηγός δημιουργίας περιβάλλοντος](https://rea.tools/guides/rl-environments/) ·
 [Δείτε το demo στο X](https://x.com/reatools/status/2112574822584918075?s=20)
 
-Αν χρησιμοποίησες το REA για κάτι ενδιαφέρον, θα θέλαμε να το δούμε. Μοιράσου τη μελέτη σου σε ένα [issue](https://github.com/morluto/rea/issues) ή [pull request](https://github.com/morluto/rea/pulls), αναφέροντας τον στόχο, το ερώτημά σου, πώς βοήθησε το REA και τι ανακάλυψες.
+Αν χρησιμοποίησες το REA για κάτι ενδιαφέρον, θα θέλαμε να το δούμε. Μοιράσου τη μελέτη σου σε ένα [issue](https://github.com/bryankwandou/rea/issues) ή [pull request](https://github.com/bryankwandou/rea/pulls), αναφέροντας τον στόχο, το ερώτημά σου, πώς βοήθησε το REA και τι ανακάλυψες.
 
 <a id="build-rl-environments"></a>
 
@@ -333,7 +324,7 @@ rea update
 npx rea-agents@latest setup
 ```
 
-Αν χρησιμοποιείς agent, ολοκλήρωσε την [ανανέωση της ρύθμισης](#ενημέρωση-του-rea) και επανεκκίνησέ τον. Δοκίμασε ξανά την ίδια εργασία. Αν το πρόβλημα παραμένει, [άνοιξε ένα issue](https://github.com/morluto/rea/issues) με την έκδοση του REA, τον τύπο του στόχου, τα βήματα αναπαραγωγής και την έξοδο του σφάλματος.
+Αν χρησιμοποιείς agent, ολοκλήρωσε την [ανανέωση της ρύθμισης](#ενημέρωση-του-rea) και επανεκκίνησέ τον. Δοκίμασε ξανά την ίδια εργασία. Αν το πρόβλημα παραμένει, [άνοιξε ένα issue](https://github.com/bryankwandou/rea/issues) με την έκδοση του REA, τον τύπο του στόχου, τα βήματα αναπαραγωγής και την έξοδο του σφάλματος.
 
 </details>
 
@@ -356,11 +347,11 @@ npx rea-agents@latest setup
 
 Ευχαριστούμε όλους όσοι χρησιμοποιούν το REA, αναφέρουν σφάλματα, ζητούν νέες λειτουργίες, δοκιμάζουν builds και συνεισφέρουν διορθώσεις.
 
-<a href="https://www.star-history.com/?repos=morluto%2Frea&amp;type=date">
+<a href="https://www.star-history.com/?repos=bryankwandou%2Frea&amp;type=date">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=morluto/rea&amp;type=date&amp;theme=dark&amp;legend=top-left" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=morluto/rea&amp;type=date" />
-    <img alt="Ιστορικό αστεριών του REA στο GitHub" src="https://api.star-history.com/chart?repos=morluto/rea&amp;type=date" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=bryankwandou/rea&amp;type=date&amp;theme=dark&amp;legend=top-left" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=bryankwandou/rea&amp;type=date" />
+    <img alt="Ιστορικό αστεριών του REA στο GitHub" src="https://api.star-history.com/chart?repos=bryankwandou/rea&amp;type=date" />
   </picture>
 </a>
 
@@ -374,7 +365,7 @@ npx rea-agents@latest setup
 
 ## Συνεισφορά
 
-Θα χαρούμε να βοηθήσεις στο REA! [Άνοιξε ένα issue](https://github.com/morluto/rea/issues) για να αναφέρεις ένα σφάλμα ή να προτείνεις μια λειτουργία, ή [στείλε ένα pull request](https://github.com/morluto/rea/pulls) για να βελτιώσεις τον κώδικα ή την τεκμηρίωση.
+Θα χαρούμε να βοηθήσεις στο REA! [Άνοιξε ένα issue](https://github.com/bryankwandou/rea/issues) για να αναφέρεις ένα σφάλμα ή να προτείνεις μια λειτουργία, ή [στείλε ένα pull request](https://github.com/bryankwandou/rea/pulls) για να βελτιώσεις τον κώδικα ή την τεκμηρίωση.
 
 Δες το [CONTRIBUTING.md](../../CONTRIBUTING.md) για τη ρύθμιση του περιβάλλοντος ανάπτυξης και τους ελέγχους, τον [οδηγό δοκιμών](../testing.md) για τις διαδικασίες επαλήθευσης και τον [χάρτη αρχιτεκτονικής](../architecture.mermaid) για τη δομή του έργου.
 

@@ -1,6 +1,6 @@
 # Native directory decompilation verification — 2026-10-23
 
-The [2026-10-26 follow-up](https://github.com/morluto/rea/blob/72454004772f826440c5e21002f4dd52b4ad43c0/experiments/analysis-efficiency/decompile-directory.md)
+The [2026-10-26 follow-up](https://github.com/bryankwandou/rea/blob/72454004772f826440c5e21002f4dd52b4ad43c0/experiments/analysis-efficiency/decompile-directory.md)
 adds a 14,338-function real-provider capacity run, cross-session project reuse,
 and a correction preserving historical source Evidence through shared workflows.
 
@@ -222,6 +222,6 @@ checkpoint-only execution of the production verifier reproduced the same
 `dom_structure: unchanged`, `scripts: unknown` result on exact base and
 merge, with cleanup retained. Local Chromium was 155.0.8059.79 on Debian 12;
 the CI Chrome version was not measured. This does not establish a passing
-complete browser workflow. [The public CI attribution](https://github.com/morluto/rea/pull/6170#issuecomment-6373669748)
+complete browser workflow. [The public CI attribution](https://github.com/bryankwandou/rea/pull/6170#issuecomment-6373669748)
 records the controls and separates these baseline failures from the three
 actionable feature review findings fixed above.

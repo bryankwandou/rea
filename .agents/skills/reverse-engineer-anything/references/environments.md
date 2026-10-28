@@ -276,6 +276,6 @@ list any `credential-named-members` warning pointers for review. Never publish
 or share the bundle yourself.
 
 See
-[agent environments](https://github.com/morluto/rea/blob/main/docs/agent-environments.md)
+[agent environments](https://github.com/bryankwandou/rea/blob/main/docs/agent-environments.md)
 for what the state, replay and the bundle establish, and
 [evidence workflows](evidence-workflows.md) for the manifest and state views.

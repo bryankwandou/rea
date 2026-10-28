@@ -12,11 +12,9 @@
 [![Versiunea npm](https://img.shields.io/npm/v/rea-agents?style=flat-square&color=cb3837)](https://www.npmjs.com/package/rea-agents)
 [![Catalogul uneltelor MCP](https://img.shields.io/badge/MCP-tool_catalog-5c4ee5?style=flat-square)](../mcp-contracts.md#generated-catalog)
 [![Cerințe Node.js](https://img.shields.io/badge/Node.js-requirements-339933?style=flat-square&logo=nodedotjs&logoColor=white)](#ce-poți-analiza)
-[![skills.sh](https://skills.sh/b/morluto/rea?style=flat-square)](https://skills.sh/morluto/rea/reverse-engineer-anything)
+[![skills.sh](https://skills.sh/b/bryankwandou/rea?style=flat-square)](https://skills.sh/bryankwandou/rea/reverse-engineer-anything)
 [![Licența MIT](https://img.shields.io/badge/license-MIT-f4c430?style=flat-square)](../../LICENSE)
 [![Discord](https://img.shields.io/discord/1556595354999332884?logo=discord&logoColor=white&label=Discord&color=5865F2)](https://discord.gg/GkcryMnJDM)
-
-<a href="https://trendshift.io/repositories/82054?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-82054" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/82054" alt="morluto%2Frea | Trendshift" width="250" height="55"/></a>
 
 **[Site web](https://rea.tools/) · [Ghiduri](https://rea.tools/guides/) · [Studii de caz](https://rea.tools/showcase/)**
 
@@ -25,12 +23,6 @@
 <code>npx rea-agents setup</code>
 
 </div>
-
-> [!IMPORTANT]
-> Descarcă REA din [morluto/rea](https://github.com/morluto/rea),
-> de pe [rea.tools](https://rea.tools/) sau prin [pachetul npm rea-agents](https://www.npmjs.com/package/rea-agents).
-> Urmează linkurile de instalare și către versiunile publicate oferite de aceste surse oficiale.
-> Un nume de repository asemănător sau un README copiat nu dovedește că descărcarea provine dintr-o sursă oficială.
 
 <div align="center">
 
@@ -290,8 +282,8 @@ compară codul C++ reconstruit cu rezultatul compilatorului folosit la acea vrem
 [Vezi demonstrația pe X](https://x.com/reatools/status/2112574822584918075?s=20)
 
 Dacă ai folosit REA pentru ceva interesant, ne-ar plăcea să vedem rezultatul.
-Prezintă cazul într-un [issue](https://github.com/morluto/rea/issues) sau într-un
-[pull request](https://github.com/morluto/rea/pulls), menționând ținta analizată,
+Prezintă cazul într-un [issue](https://github.com/bryankwandou/rea/issues) sau într-un
+[pull request](https://github.com/bryankwandou/rea/pulls), menționând ținta analizată,
 întrebarea ta, cum te-a ajutat REA și ce ai descoperit.
 
 <a id="build-rl-environments"></a>
@@ -408,7 +400,7 @@ npx rea-agents@latest setup
 
 Dacă folosești un agent, finalizează [actualizarea configurării](#actualizează-rea)
 și repornește-l. Reîncearcă aceeași sarcină. Dacă problema persistă,
-[deschide un issue](https://github.com/morluto/rea/issues) și include versiunea REA,
+[deschide un issue](https://github.com/bryankwandou/rea/issues) și include versiunea REA,
 tipul țintei analizate, pașii de reproducere și mesajele de eroare.
 
 </details>
@@ -434,11 +426,11 @@ Raportează vulnerabilitățile conform [SECURITY.md](../../SECURITY.md).
 Mulțumim tuturor celor care folosesc REA, raportează erori, propun funcționalități,
 testează versiuni și contribuie cu remedieri.
 
-<a href="https://www.star-history.com/?repos=morluto%2Frea&amp;type=date">
+<a href="https://www.star-history.com/?repos=bryankwandou%2Frea&amp;type=date">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=morluto/rea&amp;type=date&amp;theme=dark&amp;legend=top-left" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=morluto/rea&amp;type=date" />
-    <img alt="Istoricul stelelor REA pe GitHub" src="https://api.star-history.com/chart?repos=morluto/rea&amp;type=date" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=bryankwandou/rea&amp;type=date&amp;theme=dark&amp;legend=top-left" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=bryankwandou/rea&amp;type=date" />
+    <img alt="Istoricul stelelor REA pe GitHub" src="https://api.star-history.com/chart?repos=bryankwandou/rea&amp;type=date" />
   </picture>
 </a>
 
@@ -456,9 +448,9 @@ să le examinezi.
 
 ## Contribuții
 
-Ne-ar bucura să contribui la REA! [Deschide un issue](https://github.com/morluto/rea/issues)
+Ne-ar bucura să contribui la REA! [Deschide un issue](https://github.com/bryankwandou/rea/issues)
 pentru a raporta o eroare sau a propune o funcționalitate ori
-[trimite un pull request](https://github.com/morluto/rea/pulls) pentru a îmbunătăți
+[trimite un pull request](https://github.com/bryankwandou/rea/pulls) pentru a îmbunătăți
 codul sau documentația.
 
 Consultă [CONTRIBUTING.md](../../CONTRIBUTING.md) pentru pregătirea mediului de dezvoltare

@@ -10,7 +10,7 @@
 set -euo pipefail
 
 PACKAGE="rea-agents"
-REPOSITORY="morluto/rea"
+REPOSITORY="bryankwandou/rea"
 numeric_identifier='(0|[1-9][0-9]*)'
 prerelease_identifier="(${numeric_identifier}|[0-9A-Za-z-]*[A-Za-z-][0-9A-Za-z-]*)"
 build_identifier='[0-9A-Za-z-]+'

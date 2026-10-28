@@ -2519,7 +2519,7 @@ msgid ""
 msgstr ""
 "{ph0}更新REA {ph1}、エージェントを再起動し、同じタスクを再試行します。 最近のリリースでは既に問題が解決されている可能性があります。"
 
-#. {ph0}: <a href="https://github.com/morluto/rea/issues/new/choose" >
+#. {ph0}: <a href="https://github.com/bryankwandou/rea/issues/new/choose" >
 #. {ph1}: </a >
 #: website/public/faq/index.html:517
 #, python-brace-format
@@ -2555,9 +2555,9 @@ msgctxt "page:faq/index.html"
 msgid "How can I share an example or contribute?"
 msgstr "例を共有したり、貢献したりするにはどうすればよいですか？"
 
-#. {ph0}: <a href="https://github.com/morluto/rea/issues/new/choose" >
+#. {ph0}: <a href="https://github.com/bryankwandou/rea/issues/new/choose" >
 #. {ph1}: </a >
-#. {ph2}: <a href="https://github.com/morluto/rea/pulls">
+#. {ph2}: <a href="https://github.com/bryankwandou/rea/pulls">
 #. {ph3}: </a >
 #: website/public/faq/index.html:543
 #, python-brace-format
@@ -3483,7 +3483,7 @@ msgid ""
 " Electron app and a browser.{ph3}"
 msgstr "{ph0}調査ガイドを選ぶ{ph1}{ph2}バイナリ、Electronアプリ、およびブラウザの例を使用しました。{ph3}"
 
-#. {ph0}: <a href="https://github.com/morluto/rea/issues">
+#. {ph0}: <a href="https://github.com/bryankwandou/rea/issues">
 #. {ph1}: </a >
 #. {ph2}: <span>
 #. {ph3}: </span>
@@ -7176,7 +7176,7 @@ msgstr ""
 #. squares-flag-checker/ctfcli.yaml" >
 #. {ph3}: </a >
 #. {ph4}: <a
-#. href="https://github.com/morluto/rea/blob/main/website/evidence/ctf-masked-
+#. href="https://github.com/bryankwandou/rea/blob/main/website/evidence/ctf-masked-
 #. squares.md" >
 #. {ph5}: </a >
 #: website/public/showcase/ctf/index.html:704
@@ -11096,7 +11096,7 @@ msgctxt "runtime"
 msgid "Switch to dark mode"
 msgstr "ダークモードに切り替える"
 
-#. {ph0}: <a href="https://github.com/morluto/rea/blob/main/docs/web-network-
+#. {ph0}: <a href="https://github.com/bryankwandou/rea/blob/main/docs/web-network-
 #. captures.md" >
 #. {ph1}: </a >
 #: website/public/guides/browser/index.html:487
@@ -12262,7 +12262,7 @@ msgid "Back to top"
 msgstr "ページ上部へ"
 
 #. {ph0}: <a
-#. href="https://github.com/morluto/rea/blob/main/website/evidence/reverse-
+#. href="https://github.com/bryankwandou/rea/blob/main/website/evidence/reverse-
 #. engineering-models.md" >
 #. {ph1}: </a >
 #: website/public/blog/reverse-engineering-models/index.html:783
@@ -12538,7 +12538,7 @@ msgstr "Claude Desktop · デスクトップのチャットで使う"
 
 #. {ph0}: <a href="https://claude.ai/download">
 #. {ph1}: </a>
-#. {ph2}: <a href="https://github.com/morluto/rea/blob/main/docs/client-
+#. {ph2}: <a href="https://github.com/bryankwandou/rea/blob/main/docs/client-
 #. configuration.md#claude-desktop" >
 #. {ph3}: </a >
 #: website/public/get-started/index.html:597
@@ -12607,11 +12607,11 @@ msgstr ""
 "Qoder（{ph0}）、Factory Droid（{ph1}）、Trae（{ph2}）、ZCode（{ph3}）、DeepSeek "
 "Harness（{ph4}）は、リポジトリのmainで利用できます。ソースからビルドするか、これらの連携を含むリリースを使ってください。"
 
-#. {ph0}: <a href="https://github.com/morluto/rea/blob/main/docs/client-
+#. {ph0}: <a href="https://github.com/bryankwandou/rea/blob/main/docs/client-
 #. configuration.md" >
 #. {ph1}: </a >
 #. {ph2}: <a
-#. href="https://github.com/morluto/rea/blob/main/docs/installation.md#released-
+#. href="https://github.com/bryankwandou/rea/blob/main/docs/installation.md#released-
 #. package-and-main" >
 #. {ph3}: </a >
 #: website/public/get-started/index.html:726
@@ -12638,7 +12638,7 @@ msgstr ""
 "Grok "
 "Botのチャットで、Botのコンピューター上で以下のコマンドを使い、{ph0}という名前のカスタムMCPサーバーを追加するように頼んでください。"
 
-#. {ph0}: <a href="https://github.com/morluto/rea/blob/main/docs/client-
+#. {ph0}: <a href="https://github.com/bryankwandou/rea/blob/main/docs/client-
 #. configuration.md#other-client-settings" >
 #. {ph1}: </a >
 #: website/public/get-started/index.html:757
@@ -12901,7 +12901,7 @@ msgstr ""
 "オートメーション」でREAを起動するアプリを許可し、もう一度試してください。"
 
 #. {ph0}: <a
-#. href="https://github.com/morluto/rea/blob/main/docs/installation.md#hopper"
+#. href="https://github.com/bryankwandou/rea/blob/main/docs/installation.md#hopper"
 #. >
 #. {ph1}: </a >
 #: website/public/get-started/index.html:1065
@@ -12978,10 +12978,10 @@ msgstr ""
 "これらのコマンドは、同じターミナルセッションで実行してください。パスを設定したらセットアップを再実行し、更新されたクライアント設定を承認して、エージェントを再起動します。"
 
 #. {ph0}: <a
-#. href="https://github.com/morluto/rea/blob/main/docs/installation.md#ghidra"
+#. href="https://github.com/bryankwandou/rea/blob/main/docs/installation.md#ghidra"
 #. >
 #. {ph1}: </a >
-#. {ph2}: <a href="https://github.com/morluto/rea/blob/main/docs/windows-
+#. {ph2}: <a href="https://github.com/bryankwandou/rea/blob/main/docs/windows-
 #. ghidra-p0.md" >
 #. {ph3}: </a >
 #: website/public/get-started/index.html:1224
@@ -13023,7 +13023,7 @@ msgid ""
 "rerun setup and restart your agent."
 msgstr "プロバイダーガイドで用意したJSON登録ファイルを使い、セットアップを再実行してエージェントを再起動してください。"
 
-#. {ph0}: <a href="https://github.com/morluto/rea/blob/main/docs/ida-
+#. {ph0}: <a href="https://github.com/bryankwandou/rea/blob/main/docs/ida-
 #. provider.md" >
 #. {ph1}: </a >
 #: website/public/get-started/index.html:1342
@@ -13167,13 +13167,13 @@ msgctxt "page:get-started/index.html"
 msgid "Process behavior"
 msgstr "プロセスの動作"
 
-#. {ph0}: <a href="https://github.com/morluto/rea/blob/main/docs/flutter-
+#. {ph0}: <a href="https://github.com/bryankwandou/rea/blob/main/docs/flutter-
 #. analysis.md" >
 #. {ph1}: </a >
-#. {ph2}: <a href="https://github.com/morluto/rea/blob/main/docs/javascript-
+#. {ph2}: <a href="https://github.com/bryankwandou/rea/blob/main/docs/javascript-
 #. artifact-reconstruction.md" >
 #. {ph3}: </a >
-#. {ph4}: <a href="https://github.com/morluto/rea/blob/main/docs/evm-
+#. {ph4}: <a href="https://github.com/bryankwandou/rea/blob/main/docs/evm-
 #. bytecode.md" >
 #. {ph5}: </a >
 #. {ph6}: <a href="../guides/">
@@ -13266,7 +13266,7 @@ msgstr ""
 "グローバルCLIをインストールした場合は、{ph0}で更新します。REAのクライアント設定とスキルを削除するには、{ph1}を使ってください。"
 
 #. {ph0}: <a
-#. href="https://github.com/morluto/rea/blob/main/docs/installation.md#diagnose-
+#. href="https://github.com/bryankwandou/rea/blob/main/docs/installation.md#diagnose-
 #. update-and-remove" >
 #. {ph1}: </a >
 #: website/public/get-started/index.html:1778
@@ -13483,7 +13483,7 @@ msgstr ""
 "Tools、make、bisonが必要です。お使いのコンピューターに合うガイドを使ってください。"
 
 #. {ph0}: <a
-#. href="https://github.com/morluto/rea/blob/main/docs/installation.md#missing-
+#. href="https://github.com/bryankwandou/rea/blob/main/docs/installation.md#missing-
 #. macos-native-decompiler" >
 #. {ph1}: </a >
 #: website/public/get-started/index.html:1182
@@ -13493,7 +13493,7 @@ msgid "{ph0}macOS · Intel{ph1}"
 msgstr "{ph0}macOS · Intel{ph1}"
 
 #. {ph0}: <a
-#. href="https://github.com/morluto/rea/blob/main/docs/installation.md#macos-
+#. href="https://github.com/bryankwandou/rea/blob/main/docs/installation.md#macos-
 #. arm64-native-decompiler" >
 #. {ph1}: </a >
 #: website/public/get-started/index.html:1188
@@ -13885,7 +13885,7 @@ msgid ""
 msgstr "セットアップの案内に従ってエージェントを接続してください。案内が表示されなければ、{ph0} を実行します。"
 
 #. {ph0}: <a
-#. href="https://github.com/morluto/rea/blob/main/CONTRIBUTING.md#development-
+#. href="https://github.com/bryankwandou/rea/blob/main/CONTRIBUTING.md#development-
 #. setup" >
 #. {ph1}: </a >
 #. {ph2}: <code>6.4.0</code>
@@ -14005,7 +14005,7 @@ msgctxt "page:contributors/index.html"
 msgid "Find a contributor"
 msgstr "貢献者を探す"
 
-#. {ph0}: <a href="https://github.com/morluto/rea/graphs/contributors">
+#. {ph0}: <a href="https://github.com/bryankwandou/rea/graphs/contributors">
 #. {ph1}: </a>
 #. {ph2}: <time datetime="2026-10-15" translate="no">2026-10-15</time>
 #: website/public/contributors/index.html:1114
@@ -14454,10 +14454,10 @@ msgid ""
 "name warnings identify places to review; they do not remove those values."
 msgstr ""
 
-#. {ph0}: <a href="https://github.com/morluto/rea/blob/main/docs/agent-
+#. {ph0}: <a href="https://github.com/bryankwandou/rea/blob/main/docs/agent-
 #. environments-quickstart.md" >
 #. {ph1}: </a >
-#. {ph2}: <a href="https://github.com/morluto/rea/blob/main/docs/agent-
+#. {ph2}: <a href="https://github.com/bryankwandou/rea/blob/main/docs/agent-
 #. environments.md" >
 #. {ph3}: </a >
 #: website/public/guides/rl-environments/index.html:474
@@ -14763,7 +14763,7 @@ msgctxt "page:index.html"
 msgid "{ph0}Join Discord{ph1} to get help and discuss your investigations."
 msgstr "{ph0}Discord に参加{ph1}して、質問したり解析について話し合ったりできます。"
 
-#. {ph0}: <a href="https://github.com/morluto/rea/issues/new/choose" >
+#. {ph0}: <a href="https://github.com/bryankwandou/rea/issues/new/choose" >
 #. {ph1}: </a >
 #: website/public/index.html:1285
 #, python-brace-format

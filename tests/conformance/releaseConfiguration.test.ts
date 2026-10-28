@@ -154,7 +154,7 @@ describe("release configuration", () => {
 
     expect(packageJson).toMatchObject({
       name: "rea-agents",
-      mcpName: "io.github.morluto/rea",
+      mcpName: "io.github.bryankwandou/rea",
     });
     expect(serverJson).toMatchObject({
       name: packageJson.mcpName,

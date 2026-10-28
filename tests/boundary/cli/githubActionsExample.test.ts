@@ -93,7 +93,7 @@ it("links to the workflow asset outside the documentation site's base", async ()
     "utf8",
   );
   expect(guide).toContain(
-    "[minimal workflow](https://github.com/morluto/rea/blob/main/examples/github-actions/rea-analysis.yml)",
+    "[minimal workflow](https://github.com/bryankwandou/rea/blob/main/examples/github-actions/rea-analysis.yml)",
   );
 });
 

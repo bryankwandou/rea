@@ -12,11 +12,9 @@
 [![npm version](https://img.shields.io/npm/v/rea-agents?style=flat-square&color=cb3837)](https://www.npmjs.com/package/rea-agents)
 [![MCP tool catalog](https://img.shields.io/badge/MCP-tool_catalog-5c4ee5?style=flat-square)](../mcp-contracts.md#generated-catalog)
 [![Node.js requirements](https://img.shields.io/badge/Node.js-requirements-339933?style=flat-square&logo=nodedotjs&logoColor=white)](#current-status)
-[![skills.sh](https://skills.sh/b/morluto/rea?style=flat-square)](https://skills.sh/morluto/rea/reverse-engineer-anything)
+[![skills.sh](https://skills.sh/b/bryankwandou/rea?style=flat-square)](https://skills.sh/bryankwandou/rea/reverse-engineer-anything)
 [![MIT license](https://img.shields.io/badge/license-MIT-f4c430?style=flat-square)](../../LICENSE)
 [![Discord](https://img.shields.io/discord/1556595354999332884?logo=discord&logoColor=white&label=Discord&color=5865F2)](https://discord.gg/GkcryMnJDM)
-
-<a href="https://trendshift.io/repositories/82054?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-82054" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/82054" alt="morluto%2Frea | Trendshift" width="250" height="55"/></a>
 
 **[ウェブサイト](https://rea.tools/ja/) · [ガイド](https://rea.tools/ja/guides/) · [事例](https://rea.tools/ja/showcase/)**
 
@@ -25,10 +23,6 @@
 <code>npx rea-agents setup</code>
 
 </div>
-
-> [!IMPORTANT]
-> REA の公式配布元： [morluto/rea](https://github.com/morluto/rea), [rea.tools](https://rea.tools/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
-> インストールとリリースのリンクは、これらの公式配布元からたどってください。似たリポジトリ名やコピーされた README だけでは、公式の配布物とは確認できません。
 
 <div align="center">
 
@@ -232,7 +226,7 @@ Web アプリのセッションを記録し、API をツールに変換して、
 [環境構築ガイド](https://rea.tools/guides/rl-environments/) ·
 [X でデモを見る](https://x.com/reatools/status/2112574822584918075?s=20)
 
-REA で興味深い対象を調べたら、ぜひ共有してください。[issue](https://github.com/morluto/rea/issues) または [pull request](https://github.com/morluto/rea/pulls) に、対象、調べたかったこと、REA がどう役立ったか、何が分かったかを記載してください。
+REA で興味深い対象を調べたら、ぜひ共有してください。[issue](https://github.com/bryankwandou/rea/issues) または [pull request](https://github.com/bryankwandou/rea/pulls) に、対象、調べたかったこと、REA がどう役立ったか、何が分かったかを記載してください。
 
 <a id="build-rl-environments"></a>
 
@@ -331,7 +325,7 @@ rea update
 npx rea-agents@latest setup
 ```
 
-エージェントを使っている場合は、[設定の更新](#rea-を更新する)を完了し、再起動してください。同じタスクをもう一度試し、問題が続く場合は [issue を作成](https://github.com/morluto/rea/issues)して、REA のバージョン、対象の種類、再現手順、エラー出力を記載してください。
+エージェントを使っている場合は、[設定の更新](#rea-を更新する)を完了し、再起動してください。同じタスクをもう一度試し、問題が続く場合は [issue を作成](https://github.com/bryankwandou/rea/issues)して、REA のバージョン、対象の種類、再現手順、エラー出力を記載してください。
 
 </details>
 
@@ -354,11 +348,11 @@ npx rea-agents@latest setup
 
 REA の利用、バグ報告、機能の要望、ビルドのテスト、修正への貢献に感謝します。
 
-<a href="https://www.star-history.com/?repos=morluto%2Frea&amp;type=date">
+<a href="https://www.star-history.com/?repos=bryankwandou%2Frea&amp;type=date">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=morluto/rea&amp;type=date&amp;theme=dark&amp;legend=top-left" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=morluto/rea&amp;type=date" />
-    <img alt="REA の GitHub スター履歴" src="https://api.star-history.com/chart?repos=morluto/rea&amp;type=date" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=bryankwandou/rea&amp;type=date&amp;theme=dark&amp;legend=top-left" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=bryankwandou/rea&amp;type=date" />
+    <img alt="REA の GitHub スター履歴" src="https://api.star-history.com/chart?repos=bryankwandou/rea&amp;type=date" />
   </picture>
 </a>
 
@@ -372,7 +366,7 @@ REA は、法令に従った研究、教育、相互運用性の確保、ソフ�
 
 ## 貢献する
 
-REA への貢献を歓迎します！[issue を作成](https://github.com/morluto/rea/issues)してバグや機能の提案を報告したり、[pull request を送信](https://github.com/morluto/rea/pulls)してコードやドキュメントを改善したりできます。
+REA への貢献を歓迎します！[issue を作成](https://github.com/bryankwandou/rea/issues)してバグや機能の提案を報告したり、[pull request を送信](https://github.com/bryankwandou/rea/pulls)してコードやドキュメントを改善したりできます。
 
 開発環境とチェックは [CONTRIBUTING.md](../../CONTRIBUTING.md)、検証レーンは[テストガイド](../testing.md)、プロジェクト構造は[アーキテクチャ図](../architecture.mermaid)を参照してください。
 

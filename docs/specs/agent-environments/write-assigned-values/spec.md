@@ -1,6 +1,6 @@
 # Serve writes whose values the application renames or regenerates
 
-Issue: https://github.com/morluto/rea/issues/4933
+Issue: https://github.com/bryankwandou/rea/issues/4933
 
 ## Outcome
 

@@ -1,11 +1,11 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.morluto/rea",
+  "name": "io.github.bryankwandou/rea",
   "title": "REA",
   "description": "Reverse engineer anything from your terminal or agent with one CLI and MCP server.",
-  "websiteUrl": "https://github.com/morluto/rea",
+  "websiteUrl": "https://github.com/bryankwandou/rea",
   "repository": {
-    "url": "https://github.com/morluto/rea",
+    "url": "https://github.com/bryankwandou/rea",
     "source": "github"
   },
   "version": "6.8.0",

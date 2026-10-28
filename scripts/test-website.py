@@ -199,7 +199,7 @@ class WebsiteSearchChecks(unittest.TestCase):
             (
                 "index.html",
                 'rel="canonical" href="https://rea.tools/"',
-                'rel="canonical" href="https://morluto.github.io/rea/"',
+                'rel="canonical" href="https://bryankwandou.github.io/rea/"',
                 "head canonical",
             ),
             (
@@ -331,7 +331,7 @@ class WebsiteMaintenanceChecks(unittest.TestCase):
                 snapshot = root / "website/public/contributors/people.json"
                 snapshot.parent.mkdir(parents=True)
                 snapshot.write_bytes(json.dumps({
-                    "repository": "morluto/rea", "updated": "2026-10-14", "contributors": people[:1],
+                    "repository": "bryankwandou/rea", "updated": "2026-10-14", "contributors": people[:1],
                 }).encode("utf-8"))
                 before = snapshot.read_bytes()
                 with patch.object(WEBSITE.subprocess, "run", return_value=response), failure as save:
@@ -408,7 +408,7 @@ class WebsiteMaintenanceChecks(unittest.TestCase):
             cases = (
                 ('<a href="https://rea.tools/deleted/">Broken</a>', "missing local target"),
                 ('<code>https://rea.tools/guides/native/#deleted</code>', "missing HTML fragment"),
-                ('<code>https://morluto.github.io/rea/examples/notes-web/</code>', "obsolete website URL"),
+                ('<code>https://bryankwandou.github.io/rea/examples/notes-web/</code>', "obsolete website URL"),
                 ('<button data-copy="deleted">Copy</button>', "missing copy target"),
                 ('<a href="https://[">Malformed</a>', "invalid URL"),
             )

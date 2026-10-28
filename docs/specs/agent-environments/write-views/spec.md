@@ -1,6 +1,6 @@
 # Writes whose answers show the entity otherwise than reads, and whole-object updates
 
-Issue: https://github.com/morluto/rea/issues/4933
+Issue: https://github.com/bryankwandou/rea/issues/4933
 
 ## Outcome
 

@@ -34,7 +34,7 @@ sysroot and four additional official libunwind archives total 319,933,537 bytes.
 An initial link failure exposed those omitted archives; the corrected fixture
 build passed in 4.606 seconds, CPU 6.026 seconds, peak family RSS 110.4 MiB.
 
-[Committed source fixtures and reproduction](https://github.com/morluto/rea/blob/main/tests/fixtures/android/jni-bindings/README.md)
+[Committed source fixtures and reproduction](https://github.com/bryankwandou/rea/blob/main/tests/fixtures/android/jni-bindings/README.md)
 build native declarations, javac headers and two libraries for arm64-v8a,
 armeabi-v7a, x86 and x86_64. Ordinary REL/RELA, RELR and Android packed APS2
 variants include overloads, BMP/supplementary names, explicit Modified UTF-8,
@@ -289,15 +289,15 @@ occurred. Final `docs:check`, `format:check` and `docs:build` pass in
 
 Build the runtime, generate the source fixtures using selected existing JDK,
 NDK and D8 paths, then run the maintained
-[pure parser verifier](https://github.com/morluto/rea/blob/main/tests/support/analysis-efficiency/android-jni-library.mjs)
+[pure parser verifier](https://github.com/bryankwandou/rea/blob/main/tests/support/analysis-efficiency/android-jni-library.mjs)
 against the built parser. The
-[public workflow harness](https://github.com/morluto/rea/blob/main/tests/support/analysis-efficiency/android-jni.mjs)
+[public workflow harness](https://github.com/bryankwandou/rea/blob/main/tests/support/analysis-efficiency/android-jni.mjs)
 accepts `--variant ordinary|relr|aps2|conscrypt`, `--detail complete|summary`,
 `--proof --pages --cli` and optional `--retained-removal`, explicit selected
 repository/artifact/JDK/JAR/oracle paths and a fresh output directory. Frozen
 harness SHA-256:
 `14836895659de0f161c479b2b013ec39d754d172fd9935898872ab9cb5937035`.
-The [cost script](https://github.com/morluto/rea/blob/main/tests/support/analysis-efficiency/android-jni-costs.py)
+The [cost script](https://github.com/bryankwandou/rea/blob/main/tests/support/analysis-efficiency/android-jni-costs.py)
 consumes every case's catalog, calls and summary receipts, fingerprints them
 and keeps qualification costs separate.
 

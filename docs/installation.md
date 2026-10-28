@@ -474,7 +474,7 @@ REA's managed shared and Claude Code personal skill locations. See the
 
 If REA exits with `ERR_MODULE_NOT_FOUND` before `doctor` can produce a report,
 inspect the missing path in the error. A path under npm's `_npx/<key>/node_modules`
-identifies a package-runner installation. In [#5259](https://github.com/morluto/rea/issues/5259),
+identifies a package-runner installation. In [#5259](https://github.com/bryankwandou/rea/issues/5259),
 the missing file was `@modelcontextprotocol/client/dist/index.mjs`. That file is
 present in a clean Windows installation of REA 6.7.0; its absence alone does not
 establish an incompatible dependency release or explain how the file went missing.
@@ -558,7 +558,7 @@ version that performed setup. Installing newer instructions does not update a
 running server or its registration.
 
 The npm release checked on **2026-10-11** was **6.4.0**, published from
-[`a56f7bb6`](https://github.com/morluto/rea/commit/a56f7bb668ab23fec8d33f7af353ac7ed2fe1895).
+[`a56f7bb6`](https://github.com/bryankwandou/rea/commit/a56f7bb668ab23fec8d33f7af353ac7ed2fe1895).
 The actual registry package accepted dry-run setup plans for the 17 client IDs
 in that release, including Qwen Code, Pi and Hermes. Seven client IDs are
 included from 6.5.0 and were absent from the checked npm 6.4.0 package: `droid`,
@@ -570,7 +570,7 @@ OpenCode's plan selected
 used an isolated home on macOS with Node 24; they verify planning and argument
 admission, without writing client configuration or establishing live integration
 with every client. This resolves the npm 6.3.0 setup gaps tracked in
-[#1650](https://github.com/morluto/rea/issues/1650).
+[#1650](https://github.com/bryankwandou/rea/issues/1650).
 
 Main's catalog describes the current code. A source build or a subsequent
 release containing changes after this checkpoint is required for newer
@@ -586,12 +586,12 @@ through a reviewed, scoped setup plan, then restart/reconnect the agent.
 ## Skill-only installation
 
 ```bash
-npx skills add morluto/rea --skill reverse-engineer-anything
+npx skills add bryankwandou/rea --skill reverse-engineer-anything
 ```
 
 This installs agent instructions and bundled references, not REA MCP
 registration or analysis engines. Follow the skill's
-[conditional connection guide](https://github.com/morluto/rea/blob/main/.agents/skills/reverse-engineer-anything/SKILL.md#connect-only-when-needed).
+[conditional connection guide](https://github.com/bryankwandou/rea/blob/main/.agents/skills/reverse-engineer-anything/SKILL.md#connect-only-when-needed).
 Working tools can be used immediately. If tools are missing, inspect the current
 client's registration with `doctor --client codex --json` (substitute its client
 ID), then plan repairs with `setup --client codex --dry-run --json`. Show and
@@ -1593,19 +1593,19 @@ A source plugin uses the locally built runtime and generated skill; rebuild afte
 source changes. Missing builds and mismatched version pins fail with an actionable
 error. The authored `.agents/skills/` tree is not the plugin's shipped skill layout.
 Windows source workflows that need native controls still require the
-[Windows source-checkout build](https://github.com/morluto/rea/blob/main/native/windows/README.md#build).
+[Windows source-checkout build](https://github.com/bryankwandou/rea/blob/main/native/windows/README.md#build).
 
 In Claude Code:
 
 ```text
-/plugin marketplace add morluto/rea
+/plugin marketplace add bryankwandou/rea
 /plugin install rea@rea
 ```
 
 In Codex CLI, add the marketplace and install REA:
 
 ```bash
-codex plugin marketplace add morluto/rea
+codex plugin marketplace add bryankwandou/rea
 codex plugin add rea@rea
 ```
 
@@ -1645,11 +1645,11 @@ The server inherits the client's environment, so a setting such as
 
 ## MCP Registry
 
-REA is published in the official MCP Registry as `io.github.morluto/rea`. Registry
+REA is published in the official MCP Registry as `io.github.bryankwandou/rea`. Registry
 clients can discover the server and install the existing public `rea-agents` npm
 package; the Registry entry does not introduce a second distribution artifact.
 
-For a client that supports Registry discovery, search for `io.github.morluto/rea`
+For a client that supports Registry discovery, search for `io.github.bryankwandou/rea`
 and select the npm package. The published metadata launches the existing stdio
 server through `npx` with the `mcp` command.
 
@@ -1755,7 +1755,7 @@ An `npx` launch can inspect the caller's npm project before executing REA. For
 example, a direct dependency whose override conflicts with its declared spec
 can cause npm's `EOVERRIDE`, even when the requested REA package is already
 cached. This is a package-runner failure: REA has not started and cannot return
-an MCP error. [#3690](https://github.com/morluto/rea/issues/3690) reproduced it
+an MCP error. [#3690](https://github.com/bryankwandou/rea/issues/3690) reproduced it
 outside OpenCode as well as through that client's workspace-default launch.
 
 Use the direct global-installation setup flow above to replace the affected
@@ -1772,7 +1772,7 @@ without asking npm to resolve the workspace's dependency graph.
 The optional curl wrapper installs only the global npm package:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/morluto/rea/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/bryankwandou/rea/main/install.sh | bash
 ```
 
 It prints the version, runtime, npm command, and destination before installing. When a controlling terminal exists it starts `rea setup`; otherwise it prints the command to run later.
@@ -1780,7 +1780,7 @@ It prints the version, runtime, npm command, and destination before installing. 
 Pass options with `bash -s --`:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/morluto/rea/main/install.sh |
+curl -fsSL https://raw.githubusercontent.com/bryankwandou/rea/main/install.sh |
   bash -s -- --dry-run
 ```
 
@@ -1789,7 +1789,7 @@ version, download its tagged script, and inspect the downloaded file:
 
 ```bash
 rea_version=6.7.0
-curl -fsSL "https://raw.githubusercontent.com/morluto/rea/rea-agents-${rea_version}/install.sh" -o rea-install.sh
+curl -fsSL "https://raw.githubusercontent.com/bryankwandou/rea/rea-agents-${rea_version}/install.sh" -o rea-install.sh
 less rea-install.sh
 ```
 

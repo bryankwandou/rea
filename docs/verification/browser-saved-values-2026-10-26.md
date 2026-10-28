@@ -30,7 +30,7 @@ not executions performed here.
 PocketBase **0.40.6** runs on an owned loopback instance. Its official Linux amd64
 archive is 12,824,710 bytes, SHA-256
 `0e1f609158ed945f809f8a02ae012aa0427129c66ebb63c1aee76f2c0309373f`.
-The [owned frontend](https://github.com/morluto/rea/blob/938052704/experiments/analysis-efficiency/fixtures/browser-saved-values/index.html)
+The [owned frontend](https://github.com/bryankwandou/rea/blob/938052704/experiments/analysis-efficiency/fixtures/browser-saved-values/index.html)
 uses actual superuser authentication and record APIs. It is a small test
 frontend rather than PocketBase's entire administrative application.
 Collection `rea_items` has required text `title` and numeric `quantity`, public

@@ -366,7 +366,7 @@ client deadline. Configure the client's tool timeout with execution, cleanup
 and delivery headroom, or report that change is needed when not authorized.
 Session status does not establish that all target-free work stopped. Detailed
 host settings and bounded retry guidance live in the shipped skill's
-[recovery reference](https://github.com/morluto/rea/blob/main/.agents/skills/reverse-engineer-anything/references/connection-and-recovery.md#distinguish-client-and-server-deadlines).
+[recovery reference](https://github.com/bryankwandou/rea/blob/main/.agents/skills/reverse-engineer-anything/references/connection-and-recovery.md#distinguish-client-and-server-deadlines).
 
 ### Untrusted target content
 
@@ -892,7 +892,7 @@ suppresses the error reply after client cancellation, Evidence tools cannot
 recover them. An empty bundle does not prove that no partial work or side
 effect occurred; output receipts and cleanup observations remain distinct.
 The broader retention decision is tracked in
-[#4276](https://github.com/morluto/rea/issues/4276).
+[#4276](https://github.com/bryankwandou/rea/issues/4276).
 
 `analyze_javascript_application` also yields between reconstruction phases and
 during graph/result sealing, cross-graph binding checks, Evidence JSON validation,
@@ -1323,7 +1323,7 @@ verify the compact advertisement through the same client boundary.
 Some function-calling providers reject a request while any single tool's
 `parameters` schema exceeds a literal serialized size cap; Moonshot clients
 such as kimi-cli have reported failures with the full catalog attached
-([#1484](https://github.com/morluto/rea/issues/1484)). Setting the server's
+([#1484](https://github.com/bryankwandou/rea/issues/1484)). Setting the server's
 `REA_MCP_INPUT_SCHEMA_PROFILE` environment variable to `compact` (the default)
 renders every advertised input schema within a 13,312-byte budget, measured to sit below
 Moonshot's observed cap (community measurements: a 13.7 KB schema is accepted
@@ -1332,17 +1332,17 @@ server to apply changes, as with `REA_MCP_MAX_RESPONSE_BYTES`. Explicitly select
 `full` to retain complete advertised input guidance and nested validation detail.
 Existing explicit profile choices are preserved. Compact presentation
 also reduces schemas whose expanded JSON tree exceeds ten levels, the limit
-reported by strict-depth MCP clients in [#2813](https://github.com/morluto/rea/issues/2813).
+reported by strict-depth MCP clients in [#2813](https://github.com/bryankwandou/rea/issues/2813).
 WorkBuddy/CodeBuddy gateways have also rejected full REA catalogs with an
 opaque `11133` error while accepting the compact profile
-([#2999](https://github.com/morluto/rea/issues/2999)); compatibility depends on
+([#2999](https://github.com/bryankwandou/rea/issues/2999)); compatibility depends on
 the selected gateway and model. That report used ZCode through a gateway to a
 Kimi-K3 backend, not the WorkBuddy MCP client. Set the profile on REA's
 registration in the actual MCP host; the host's name alone does not identify
 the downstream model or its schema constraints.
 
 The compact profile also protects strict Anthropic-compatible gateways from
-known schema-translation failures reported in [#3800](https://github.com/morluto/rea/issues/3800):
+known schema-translation failures reported in [#3800](https://github.com/bryankwandou/rea/issues/3800):
 primitive `enum` properties without a sibling `type`, and `oneOf`/`allOf`
 inside a property listed in `required`. Affected schemas use the same reduced
 first-level projection described below, so the gateway receives a plain object
@@ -1354,7 +1354,7 @@ For array items expressed as an untyped `oneOf`/`anyOf`, the compact profile
 adds a type when every branch has the same type. Mixed-type item unions use the
 reduced projection; selecting one branch's type would exclude valid calls.
 This addresses the emitted shape reported through a Gemini-backed gateway in
-[#5201](https://github.com/morluto/rea/issues/5201). Gateway conversion and
+[#5201](https://github.com/bryankwandou/rea/issues/5201). Gateway conversion and
 live provider acceptance have not been verified for this projection.
 
 Gemini function declarations accept `items` only beside the single `array`
@@ -1494,7 +1494,7 @@ Some stdio hosts reject a complete `tools/list` frame before they load any
 tools. The opt-in `REA_MCP_OUTPUT_SCHEMA_PROFILE=compact` setting bounds every
 advertised output schema to 4,096 bytes; `off` omits `outputSchema` entirely
 (the measured pi-web-ui failure and catalog breakdown are in
-[#2512](https://github.com/morluto/rea/issues/2512)). The default `full` profile
+[#2512](https://github.com/bryankwandou/rea/issues/2512)). The default `full` profile
 is unchanged. Both settings keep the same named canonical tool contract for
 server-side result validation, and both still return complete
 `structuredContent` and text results.

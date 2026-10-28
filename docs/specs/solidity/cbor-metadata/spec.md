@@ -1,6 +1,6 @@
 # Solidity terminal metadata inspection
 
-Issue: https://github.com/morluto/rea/issues/2388
+Issue: https://github.com/bryankwandou/rea/issues/2388
 
 ## Outcome
 

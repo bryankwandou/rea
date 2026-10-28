@@ -66,7 +66,7 @@ for that prefix does not isolate REA permissions. Inspect that client's actual
 tool names and approval rules before selecting a permission scope. REA setup
 does not repair a client's naming behavior or infer permission drift from an
 unfamiliar prefix. The unavailable fork reported in
-[#5512](https://github.com/morluto/rea/issues/5512) has not been reverified.
+[#5512](https://github.com/bryankwandou/rea/issues/5512) has not been reverified.
 
 ## Fiddler Everywhere alongside REA
 
@@ -95,7 +95,7 @@ for tool-selection settings.
 
 For GitHub Copilot CLI 1.0.95, `gpt-4.1` model metadata can block ordinary
 chat with REA's full input-schema profile before sending a model request
-(`compaction_static_context_blocked`; [#1554](https://github.com/morluto/rea/issues/1554)).
+(`compaction_static_context_blocked`; [#1554](https://github.com/bryankwandou/rea/issues/1554)).
 For the native offline OpenAI-compatible BYOK adapter, full-profile chat and
 analysis also passed with a distinct `COPILOT_PROVIDER_MODEL_ID` such as
 `rea-gpt-4.1`, `COPILOT_PROVIDER_WIRE_MODEL=gpt-4.1`, and that distinct ID selected
@@ -139,7 +139,7 @@ in the file the installed app reads:
   The reported `AnthropicPBC.Claude_fnn82j28hfe8t` build can use the `Claude-3p`
   deployment directory. REA recognizes that package as an unresolved location;
   it does not assume that it reads the legacy AppData file or automatically
-  register in `Claude-3p`. See [#4432](https://github.com/morluto/rea/issues/4432)
+  register in `Claude-3p`. See [#4432](https://github.com/bryankwandou/rea/issues/4432)
   for the reported build and manual registration evidence.
 
 Quit Claude Desktop fully before approving setup; closing its window is not
@@ -195,7 +195,7 @@ Claude Code normally defers MCP tool definitions through tool search. It
 when `ANTHROPIC_BASE_URL` points to a non-first-party host, such as DeepSeek's
 Anthropic-compatible endpoint. It then sends every REA tool's name, description
 and input schema with every request
-([#2019](https://github.com/morluto/rea/issues/2019)). On main at 04089d5be,
+([#2019](https://github.com/bryankwandou/rea/issues/2019)). On main at 04089d5be,
 with 172 tools, that payload measured about 496 KB with the default profile and
 about 290 KB with `compact`. By the o200k and cl100k tokenizers, that is roughly
 120k and 68k tokens. Compaction cannot remove tool definitions. If they nearly
@@ -376,7 +376,7 @@ diagnostic, the actual running REA version, Gemini CLI version and selected
 model. For schema rejection, review the [input presentation profiles](mcp-contracts.md#compact-input-schema-profile)
 and reconnect after changing REA's registration environment. Compact is the
 current default; an explicitly stored `full` choice is preserved. The generic
-error in [#4620](https://github.com/morluto/rea/issues/4620) does not establish
+error in [#4620](https://github.com/bryankwandou/rea/issues/4620) does not establish
 which constraint failed, and local schema checks do not prove live API acceptance.
 
 ## Codex and Devin
@@ -472,7 +472,7 @@ If that table already exists, add or update the key there. Restart/reconnect
 Codex so REA reads the new environment. Compact is now REA's default, but an
 explicit `full` override remains effective until changed. It preserves the
 tool inventory and canonical server validation while reducing advertised input
-detail. The probes in [#5160](https://github.com/morluto/rea/issues/5160) covered
+detail. The probes in [#5160](https://github.com/bryankwandou/rea/issues/5160) covered
 individual tools through one gateway, not the entire current catalog or a
 model-driven analysis workflow.
 
@@ -525,7 +525,7 @@ also reads the outer selection, but
 resolves it beneath the configured `HERMES_HOME`. For nested overrides, confirm
 the profile Hermes actually uses and point `HERMES_HOME` directly at that
 `profiles/<name>` directory before setup. Compatibility is tracked in
-[#3939](https://github.com/morluto/rea/issues/3939).
+[#3939](https://github.com/bryankwandou/rea/issues/3939).
 
 REA resolves existing ancestor directories before checking physical containment,
 including symlinks and junctions, even when the override directory does not exist.

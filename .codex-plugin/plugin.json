@@ -3,11 +3,11 @@
   "version": "6.8.0",
   "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
   "author": {
-    "name": "morluto",
-    "url": "https://github.com/morluto"
+    "name": "bryankwandou",
+    "url": "https://github.com/bryankwandou"
   },
   "homepage": "https://rea.tools/",
-  "repository": "https://github.com/morluto/rea",
+  "repository": "https://github.com/bryankwandou/rea",
   "license": "MIT",
   "keywords": [
     "reverse-engineering",
@@ -21,7 +21,7 @@
     "displayName": "REA",
     "shortDescription": "Reverse engineer anything",
     "longDescription": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-    "developerName": "morluto",
+    "developerName": "bryankwandou",
     "category": "Developer Tools",
     "capabilities": [
       "Interactive",

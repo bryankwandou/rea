@@ -126,14 +126,14 @@ already-applied patch fails closed.
 
 ## Contributor-aware release notes
 
-Use [the rea-changelog-update skill](https://github.com/morluto/rea/blob/main/.agents/skills/rea-changelog-update/SKILL.md)
+Use [the rea-changelog-update skill](https://github.com/bryankwandou/rea/blob/main/.agents/skills/rea-changelog-update/SKILL.md)
 to turn the bot draft into grouped Highlights, Changes, and Fixes with inline
 `Thanks @...` credit. `npm run release:notes -- inventory` collects the full
 selected Git range and paginated GitHub PR/author/closing-issue metadata;
 `record --summary` produces a compact provenance link for public notes, while
 `record` produces the full record for review. Credit a contribution once even
 when it appears in highlights, details and migrations; omit maintainer
-`@morluto` self-thanks. Keep complete authorship metadata in the inventory
+`@bryankwandou` self-thanks. Keep complete authorship metadata in the inventory
 instead of duplicating a credit ledger in the release body. `check` validates credits
 and optional PR-body equality, and `render` writes the verified release section.
 Run a subcommand without its required options to see its usage. GitHub reads
@@ -338,7 +338,7 @@ the combined contracts with the released package version.
 Before merging, check whether GitHub permits merge commits:
 
 ```bash
-gh api repos/morluto/rea --jq .allow_merge_commit
+gh api repos/bryankwandou/rea --jq .allow_merge_commit
 ```
 
 If disabled, a maintainer must arrange an approved ancestry-preserving merge

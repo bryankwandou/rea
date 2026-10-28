@@ -12,11 +12,9 @@
 [![npm version](https://img.shields.io/npm/v/rea-agents?style=flat-square&color=cb3837)](https://www.npmjs.com/package/rea-agents)
 [![MCP tool catalog](https://img.shields.io/badge/MCP-tool_catalog-5c4ee5?style=flat-square)](../mcp-contracts.md#generated-catalog)
 [![Node.js requirements](https://img.shields.io/badge/Node.js-requirements-339933?style=flat-square&logo=nodedotjs&logoColor=white)](#current-status)
-[![skills.sh](https://skills.sh/b/morluto/rea?style=flat-square)](https://skills.sh/morluto/rea/reverse-engineer-anything)
+[![skills.sh](https://skills.sh/b/bryankwandou/rea?style=flat-square)](https://skills.sh/bryankwandou/rea/reverse-engineer-anything)
 [![MIT license](https://img.shields.io/badge/license-MIT-f4c430?style=flat-square)](../../LICENSE)
 [![Discord](https://img.shields.io/discord/1556595354999332884?logo=discord&logoColor=white&label=Discord&color=5865F2)](https://discord.gg/GkcryMnJDM)
-
-<a href="https://trendshift.io/repositories/82054?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-82054" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/82054" alt="morluto%2Frea | Trendshift" width="250" height="55"/></a>
 
 **[網站](https://rea.tools/zh-TW/) · [指南](https://rea.tools/zh-TW/guides/) · [案例](https://rea.tools/zh-TW/showcase/)**
 
@@ -25,10 +23,6 @@
 <code>npx rea-agents setup</code>
 
 </div>
-
-> [!IMPORTANT]
-> REA 官方來源： [morluto/rea](https://github.com/morluto/rea), [rea.tools](https://rea.tools/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
-> 請透過這些官方來源提供的安裝與發布連結取得 REA。相似的儲存庫名稱或複製的 README 不能證明下載內容來自官方。
 
 <div align="center">
 
@@ -230,7 +224,7 @@ REA 需要 Node.js 22.x（>=22.23.4）、24.x（>=24.22.1）或 26+ (>=26.12.1)�
 [建立環境指南](https://rea.tools/guides/rl-environments/) ·
 [在 X 上觀看示範](https://x.com/reatools/status/2112574822584918075?s=20)
 
-如果你用 REA 分析了有趣的目標，我們很想瞭解。歡迎通過 [issue](https://github.com/morluto/rea/issues) 或 [pull request](https://github.com/morluto/rea/pulls) 分享案例，說明目標、你的問題、REA 如何提供幫助，以及你的發現。
+如果你用 REA 分析了有趣的目標，我們很想瞭解。歡迎通過 [issue](https://github.com/bryankwandou/rea/issues) 或 [pull request](https://github.com/bryankwandou/rea/pulls) 分享案例，說明目標、你的問題、REA 如何提供幫助，以及你的發現。
 
 <a id="build-rl-environments"></a>
 
@@ -329,7 +323,7 @@ rea update
 npx rea-agents@latest setup
 ```
 
-如果正在使用 AI 代理，請完成[設定更新](#更新-rea)並重新啟動 AI 代理。重試同一任務。如果問題仍然存在，請[提交 issue](https://github.com/morluto/rea/issues)，附上 REA 版本、目標類型、復現步驟和錯誤輸出。
+如果正在使用 AI 代理，請完成[設定更新](#更新-rea)並重新啟動 AI 代理。重試同一任務。如果問題仍然存在，請[提交 issue](https://github.com/bryankwandou/rea/issues)，附上 REA 版本、目標類型、復現步驟和錯誤輸出。
 
 </details>
 
@@ -352,11 +346,11 @@ npx rea-agents@latest setup
 
 感謝每一位使用 REA、報告錯誤、提出功能需求、測試建置和貢獻修復的朋友。
 
-<a href="https://www.star-history.com/?repos=morluto%2Frea&amp;type=date">
+<a href="https://www.star-history.com/?repos=bryankwandou%2Frea&amp;type=date">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=morluto/rea&amp;type=date&amp;theme=dark&amp;legend=top-left" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=morluto/rea&amp;type=date" />
-    <img alt="REA 的 GitHub Star 歷史" src="https://api.star-history.com/chart?repos=morluto/rea&amp;type=date" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=bryankwandou/rea&amp;type=date&amp;theme=dark&amp;legend=top-left" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=bryankwandou/rea&amp;type=date" />
+    <img alt="REA 的 GitHub Star 歷史" src="https://api.star-history.com/chart?repos=bryankwandou/rea&amp;type=date" />
   </picture>
 </a>
 
@@ -371,7 +365,7 @@ REA 用於合法的研究、教育、互通性、軟體保存，以及分析你�
 
 ## 參與貢獻
 
-歡迎幫助改進 REA！你可以[提交 issue](https://github.com/morluto/rea/issues) 報告錯誤或建議功能，也可以[提交 pull request](https://github.com/morluto/rea/pulls) 改進程式碼或文件。
+歡迎幫助改進 REA！你可以[提交 issue](https://github.com/bryankwandou/rea/issues) 報告錯誤或建議功能，也可以[提交 pull request](https://github.com/bryankwandou/rea/pulls) 改進程式碼或文件。
 
 開發設定和檢查見 [CONTRIBUTING.md](../../CONTRIBUTING.md)，驗證流程見[測試指南](../testing.md)，專案結構見[架構圖](../architecture.mermaid)。
 

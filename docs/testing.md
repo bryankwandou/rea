@@ -6,8 +6,8 @@ for engine prerequisites and [client verification](client-verification.md) for
 installed-client and agent runs.
 
 Historical verification records may refer to `experiments/analysis-efficiency`.
-Those experiment scripts are available in the [archived source tree](https://github.com/morluto/rea/tree/a2e2c29b59e8775b0e6aedb09a9eb16adf32646b/experiments/analysis-efficiency);
-they are not included in current checkouts. The retained [test support](https://github.com/morluto/rea/blob/main/tests/support/analysis-efficiency/README.md)
+Those experiment scripts are available in the [archived source tree](https://github.com/bryankwandou/rea/tree/a2e2c29b59e8775b0e6aedb09a9eb16adf32646b/experiments/analysis-efficiency);
+they are not included in current checkouts. The retained [test support](https://github.com/bryankwandou/rea/blob/main/tests/support/analysis-efficiency/README.md)
 contains deterministic checkers and fixtures. The [allocation report](verification/analysis-efficiency/mcp-integer-allocation.md)
 and its original receipt JSON remain documentation, checked by the report producer.
 
@@ -140,7 +140,7 @@ without the artifacts lock, so it can record hashes while `check:pr` or
 `check:ci:fast` and `check:ci:deep` commands.
 Use `npm run lint:details` or `npm run jscpd:details` for all console diagnostics.
 Both duplicate commands scan production and test code using the limit in
-[`.jscpd.json`](https://github.com/morluto/rea/blob/main/.jscpd.json).
+[`.jscpd.json`](https://github.com/bryankwandou/rea/blob/main/.jscpd.json).
 The summary commands preserve checker failures and restore reports from cached
 static tasks. Both lint caches include the website, documentation configuration,
 and experiment code scanned by the checker; a regression compares the actual
@@ -660,11 +660,11 @@ does not check those calls; run their orchestration tests against the built
 modules, including the verifier's failure and cleanup paths.
 
 Representative regressions include
-[process cleanup-time SIGINT](https://github.com/morluto/rea/blob/e78455338fe2d06c4cd03d59cbf33473d754998b/tests/boundary/process/processCaptureCancellationAdapters.test.ts),
-[late authenticated cleanup](https://github.com/morluto/rea/blob/e78455338fe2d06c4cd03d59cbf33473d754998b/tests/boundary/providers/hopper/hopperClient.handshakeRecovery.test.ts),
-[LLDB launch and finalization](https://github.com/morluto/rea/blob/e78455338fe2d06c4cd03d59cbf33473d754998b/tests/boundary/providers/native/lldbCallTracerFailures.test.ts),
-[composed child ownership](https://github.com/morluto/rea/blob/e78455338fe2d06c4cd03d59cbf33473d754998b/src/application/binary/CompositeProvider.test.ts),
-and [public CLI cleanup denial](https://github.com/morluto/rea/blob/e78455338fe2d06c4cd03d59cbf33473d754998b/tests/boundary/cli/wasmCleanupCli.test.ts).
+[process cleanup-time SIGINT](https://github.com/bryankwandou/rea/blob/e78455338fe2d06c4cd03d59cbf33473d754998b/tests/boundary/process/processCaptureCancellationAdapters.test.ts),
+[late authenticated cleanup](https://github.com/bryankwandou/rea/blob/e78455338fe2d06c4cd03d59cbf33473d754998b/tests/boundary/providers/hopper/hopperClient.handshakeRecovery.test.ts),
+[LLDB launch and finalization](https://github.com/bryankwandou/rea/blob/e78455338fe2d06c4cd03d59cbf33473d754998b/tests/boundary/providers/native/lldbCallTracerFailures.test.ts),
+[composed child ownership](https://github.com/bryankwandou/rea/blob/e78455338fe2d06c4cd03d59cbf33473d754998b/src/application/binary/CompositeProvider.test.ts),
+and [public CLI cleanup denial](https://github.com/bryankwandou/rea/blob/e78455338fe2d06c4cd03d59cbf33473d754998b/tests/boundary/cli/wasmCleanupCli.test.ts).
 These controlled probes do not replace the matching real-provider lane. Record
 the base failure, passing control, exact host/provider, verified cleanup, and
 unavailable coverage; a missing engine is not a pass.
@@ -707,7 +707,7 @@ exceptions.
 
 The shared temporary-directory and workspace helpers preserve caller labels
 under an owned `rea-` prefix when needed. Their
-[cleanup ownership differs](https://github.com/morluto/rea/blob/main/CONTRIBUTING.md#temporary-files-and-diagnostics):
+[cleanup ownership differs](https://github.com/bryankwandou/rea/blob/main/CONTRIBUTING.md#temporary-files-and-diagnostics):
 `createTestTempDirectory` registers `onTestFinished` deletion, while
 `createTestWorkspace` requires caller cleanup. Close resources before removing
 their directory. `npm run verify:test-temp-hygiene`
@@ -1198,7 +1198,7 @@ analyzed as native code (75k methods on arm64) and decompiled through both
 CLI and MCP with explicit unit selection, plus the thin Java wrapper and
 decoded manifest. The dedicated Dart snapshot processor and `run_script`
 remained GUI-only surfaces in that headless build.
-The separate [Linux CE native audit](https://github.com/morluto/rea/blob/42e1a17d6e6c0487f17be0bae248553c4caba7f7/experiments/analysis-efficiency/jeb-linux-native.md)
+The separate [Linux CE native audit](https://github.com/bryankwandou/rea/blob/42e1a17d6e6c0487f17be0bae248553c4caba7f7/experiments/analysis-efficiency/jeb-linux-native.md)
 uses the official CE `5.48.0.202610071539` direct CLI launcher and real
 CLI/stdio MCP ELF workflows. That audit does not qualify CE Java/Android
 decompilation or GUI project opening, and it does not replace the licensed
@@ -1384,7 +1384,7 @@ other engine versions and architectures remain unverified; see the
 
 Native IDA MCP verification uses `"protocol": "native"` with an already-running native plugin and requires `--second-procedure other_function --second-marker unique_second_body_text` to exercise GUI function switching and a return to the first function. These options remain optional for other profiles. The literal marker must appear in the second function's pseudocode and be absent from the first. Native cloud/widget failures are reported without hidden retries.
 
-The initial Linux x64 IDA Free 9.4 run used native MCP 1.1.2 with a local navigation correction. Windows x64 verification uses **IDA Pro 9.3**, the two-function public fixture, and the shipped Windows `whoami.exe` application. The native plugin was built from upstream `c9d15d98e8a143fc74f6e14037c48f63889b6d6c`, including the merged navigation fix, with a local loopback-listener change. Production CLI/MCP parity, switching, identity and cleanup passed. Correctness and performance measurements are recorded in the [Windows native verification notes](https://github.com/morluto/rea/blob/a2e2c29b59e8775b0e6aedb09a9eb16adf32646b/experiments/analysis-efficiency/ida-native-windows.md). Stock 1.1.2 switching, native macOS, and Windows IDA Free remain unverified. See the [native bridge prerequisites](ida-provider.md#optional-native-ida-mcp-bridge).
+The initial Linux x64 IDA Free 9.4 run used native MCP 1.1.2 with a local navigation correction. Windows x64 verification uses **IDA Pro 9.3**, the two-function public fixture, and the shipped Windows `whoami.exe` application. The native plugin was built from upstream `c9d15d98e8a143fc74f6e14037c48f63889b6d6c`, including the merged navigation fix, with a local loopback-listener change. Production CLI/MCP parity, switching, identity and cleanup passed. Correctness and performance measurements are recorded in the [Windows native verification notes](https://github.com/bryankwandou/rea/blob/a2e2c29b59e8775b0e6aedb09a9eb16adf32646b/experiments/analysis-efficiency/ida-native-windows.md). Stock 1.1.2 switching, native macOS, and Windows IDA Free remain unverified. See the [native bridge prerequisites](ida-provider.md#optional-native-ida-mcp-bridge).
 
 ## Kuna lane
 
@@ -1414,7 +1414,7 @@ arm64. It covered zlib 1.3.2 `minigzip`, coreutils 9.9 `sort` and the sqlite
 3.54.0 shell, built at `-O2` for ELF x86-64, ELF AArch64, Mach-O arm64 and
 Mach-O x86-64, each with symbols and stripped. A separate Linux x86-64 run verified
 the fixture and system zlib 1.2.13 / SQLite 3.40.1 libraries through MCP, including
-cached byte spans and a Ghidra comparison. See the [Linux report](https://github.com/morluto/rea/pull/3854#issuecomment-6185870391)
+cached byte spans and a Ghidra comparison. See the [Linux report](https://github.com/bryankwandou/rea/pull/3854#issuecomment-6185870391)
 for measured scope and limitations. Windows, PE and universal Mach-O remain
 unverified by this lane.
 
