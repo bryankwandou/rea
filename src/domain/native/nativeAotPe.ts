@@ -907,12 +907,8 @@ const jsonUtf16StringBytes = (bytes: Buffer, codeUnits: number): number => {
   return total;
 };
 
-/** Versioned .NET 8 RTR9.1 hydration, adapted from Washi's MIT-licensed
- * `ghidra-nativeaot` at effeb734fc570c32650f88b159608979dc7b423e. The
- * MethodTable layout is cross-checked against the .NET Foundation MIT-licensed
- * MethodTable.h at runtime commit a3b2d40328be0be3f8dd43f0e5cc925b8827b044.
- * See licenses/nativeaot-parser-MIT.txt. Output is an isolated parser overlay;
- * input snapshot bytes stay immutable. */
+/** Versioned .NET 8 RTR9.1 hydration.
+ * Output is an isolated parser overlay; input snapshot bytes stay immutable. */
 const hydrate = (
   image: PeImage,
   dehydrated: RtrSection,
