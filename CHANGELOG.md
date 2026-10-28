@@ -100,7 +100,7 @@
 - **Additional boundary facts:** Retain parser format/query occurrence identity and independent malformed-input facts, unresolved nested Swift identifiers, and completed signing-capture coverage; describe crash documents without assuming a provider. [5f702dd](https://github.com/bryankwandou/rea/commit/5f702dd6ccd9e8e505e224854b91678439c3b41f), [99d2d7a](https://github.com/bryankwandou/rea/commit/99d2d7ad22bcbd780919760008aba6a88e7d1077), [90e433d](https://github.com/bryankwandou/rea/commit/90e433df06b3f83417176b8db1b0a905f9df1d3a), [#5548](https://github.com/bryankwandou/rea/pull/5548), [ee12d51](https://github.com/bryankwandou/rea/commit/ee12d517a25d34853d40e31fc039c7d1576c60e1), [#5538](https://github.com/bryankwandou/rea/issues/5538).
 - **Documentation:** Add the Romanian README. [#7026](https://github.com/bryankwandou/rea/pull/7026).
 
-Full contribution record: [1740 commits and 497 merged PRs](https://github.com/bryankwandou/rea/blob/rea-agents-6.8.0/docs/releases/6.8.0.contributions.json).
+Full contribution record: 1740 commits and 497 merged PRs.
 
 ## [6.7.0](https://github.com/bryankwandou/rea/compare/rea-agents-6.6.0...rea-agents-6.7.0) (2026-10-18)
 
