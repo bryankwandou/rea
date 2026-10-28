@@ -2854,13 +2854,13 @@ msgctxt "page:get-started/index.html"
 msgid "{ph0}Home{ph1} / Get started"
 msgstr "{ph0}首頁{ph1} / 開始使用"
 
-# Adapted from Kaoru0822's Traditional Chinese draft in PR #1737.
+
 #: website/public/get-started/index.html:202
 msgctxt "page:get-started/index.html"
 msgid "Set up REA."
 msgstr "設定 REA。"
 
-# Adapted from Kaoru0822's Traditional Chinese draft in PR #1737.
+
 #: website/public/get-started/index.html:267
 msgctxt "page:get-started/index.html"
 msgid "Open a terminal and check:"
@@ -2910,7 +2910,7 @@ msgctxt "page:get-started/index.html"
 msgid "Copy"
 msgstr "複製"
 
-# Adapted from Kaoru0822's Traditional Chinese draft in PR #1737.
+
 #. {ph0}: <code>node -v</code>
 #: website/public/get-started/index.html:305
 #, python-brace-format
@@ -2920,7 +2920,7 @@ msgid ""
 "run {ph0}."
 msgstr "如果要求你接受條款，請輸入 Y。關閉 PowerShell 後重新開啟，再執行 {ph0}。"
 
-# Adapted from Kaoru0822's Traditional Chinese draft in PR #1737.
+
 #. {ph0}: <code>nodejs</code>
 #. {ph1}: <code>node -v</code>
 #: website/public/get-started/index.html:400
@@ -2931,7 +2931,7 @@ msgid ""
 "{ph1} if you use it instead."
 msgstr "發行版提供的 {ph0} 套件通常早於 22.23.4。如果使用它，請執行 {ph1} 確認版本。"
 
-# Adapted from Kaoru0822's Traditional Chinese draft in PR #1737.
+
 #. {ph0}: <a href="https://nodejs.org/en/download">
 #. {ph1}: </a>
 #: website/public/get-started/index.html:406
@@ -2982,7 +2982,7 @@ msgctxt "page:get-started/index.html"
 msgid "How do I open a terminal?"
 msgstr "怎麼開啟終端？"
 
-# Adapted from Kaoru0822's Traditional Chinese draft in PR #1737.
+
 #. {ph0}: <strong>
 #. {ph1}: </strong>
 #. {ph2}: <em>
@@ -3035,7 +3035,7 @@ msgid ""
 msgstr ""
 "用 {ph0} {ph1} 貼上命令（macOS：{ph2} {ph3}；Linux 終端：{ph4} {ph5} {ph6}），再按 Enter。"
 
-# Adapted from Kaoru0822's Traditional Chinese draft in PR #1737.
+
 #: website/public/get-started/index.html:833
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -3356,13 +3356,13 @@ msgid ""
 "app from the terminal. Setup, first questions and native provider guides."
 msgstr "把 REA 連線到程式設計助手，或用終端檢查本地 JavaScript、Electron 應用。包含配置、首次提問和原生分析後端指南。"
 
-# Adapted from Kaoru0822's Traditional Chinese draft in PR #1737.
+
 #: website/public/get-started/index.html:271
 msgctxt "page:get-started/index.html"
 msgid "Copy Node.js version check"
 msgstr "複製 Node.js 版本檢查命令"
 
-# Adapted from Kaoru0822's Traditional Chinese draft in PR #1737.
+
 #: website/public/get-started/index.html:294
 msgctxt "page:get-started/index.html"
 msgid "Copy Node.js installation command for Windows"
@@ -14951,7 +14951,7 @@ msgstr "展開完整的計算機調查"
 #~ "terminal, open it again, then:"
 #~ msgstr "安裝程式需要 {ph0} 和 {ph1}（Debian/Ubuntu 上用 {ph2} 安裝）。關閉終端，重新開啟，然後執行："
 
-# Adapted from Kaoru0822's Traditional Chinese draft in PR #1737.
+
 #~ msgctxt "page:get-started/index.html"
 #~ msgid ""
 #~ "Connect REA to your coding agent, or inspect a local app from your terminal."
@@ -14989,7 +14989,7 @@ msgstr "展開完整的計算機調查"
 #~ msgid "Connect your coding agent"
 #~ msgstr "連線程式設計助手"
 
-# Adapted from Kaoru0822's Traditional Chinese draft in PR #1737.
+
 #~ msgctxt "page:get-started/index.html"
 #~ msgid ""
 #~ "Run setup to connect REA to your coding agent. Client choices include Claude"
@@ -15188,7 +15188,7 @@ msgstr "展開完整的計算機調查"
 #~ msgid "Check one client"
 #~ msgstr "檢查一個客戶端"
 
-# Adapted from Kaoru0822's Traditional Chinese draft in PR #1737.
+
 #~ msgctxt "page:get-started/index.html"
 #~ msgid "Copy PowerShell execution policy command"
 #~ msgstr "複製 PowerShell 執行原則命令"
